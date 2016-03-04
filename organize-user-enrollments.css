@@ -1,0 +1,9 @@
+#courses_list .context_list {
+	max-height: none !important;
+}
+
+#courses_list .context_list .active {
+	background: #fffac7;
+	border-radius: 0.5em;
+	padding: 0.5em;
+}

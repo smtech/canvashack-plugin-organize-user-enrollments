@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<canvashack>
+	<name>Organize User Enrollments</name>
+	<id>organize-user-enrollments</id>
+	<abstract>Provide a more organized (and readable) listing of users' enrollments</abstract>
+	<authors>
+		<author>
+			<name>Seth Battis</name>
+			<email>SethBattis@stmarksschool.org</email>
+		</author>
+	</authors>
+	<components>
+		<css>organize-user-enrollments.css</css>
+		<canvas>
+			<pages>
+				<include>
+					<page>
+						<type>regex</type>
+						<pattern>%.*\/accounts\/\d+\/users\/\d+%</pattern>
+					</page>
+				</include>
+			</pages>
+		</canvas>
+	</components>
+</canvashack>
