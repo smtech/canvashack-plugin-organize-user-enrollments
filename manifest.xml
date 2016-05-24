@@ -16,7 +16,7 @@
 				<include>
 					<page>
 						<type>regex</type>
-						<pattern>%.*\/accounts\/\d+\/users\/\d+%</pattern>
+						<pattern>%.*\/accounts\/\d+\/users\/\d+$%</pattern>
 					</page>
 				</include>
 			</pages>
